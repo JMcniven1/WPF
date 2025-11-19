@@ -6,7 +6,12 @@
         xmlns:local="clr-namespace:_20_Stackpanel"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <StackPanel Orientation="Vertical">
+        <Button HorizontalAlignment="Left" Height="40">button 1</Button>
+        <Button HorizontalAlignment="Center" >button 2</Button>
+        <Button HorizontalAlignment="Right" >button 3</Button>
+        <Button HorizontalAlignment="Left" >button 4</Button>
+        <Button HorizontalAlignment="Center" >button 2</Button>
+        <Button HorizontalAlignment="Right" >button 2</Button>
+    </StackPanel>
 </Window>
