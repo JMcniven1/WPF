@@ -1,0 +1,29 @@
+﻿<Window x:Class="_25_Menu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_25_Menu"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Archivo">
+                <MenuItem Header="Salir" Name="mnuSalir" Click="mnuSalir_Click"/>
+            </MenuItem>
+            <MenuItem Header="Operacion">
+                <MenuItem Header="Suma" Name="mnuSuma" Click="mnuSuma_Click"/>
+                <MenuItem Header="Resta" Name="mnuResta" Click="mnuResta_Click"/>
+                <MenuItem Header="Mult" Name="mnuMulti" Click="mnuMulti_Click"/>
+                <MenuItem Header="Div" Name="mnuDiv" Click="mnuDiv_Click"/>
+            </MenuItem>
+        </Menu>
+
+        <StackPanel>
+            <TextBox x:Name="txtValorA" Text="" Height="20" Width="100"/>
+            <TextBox x:Name="txtValorB" Text="" Height="20" Width="100"/>
+            <TextBox x:Name="txtR" Text="" Height="20" Width="100"/>
+        </StackPanel>
+        
+    </DockPanel>
+</Window>

@@ -1,0 +1,19 @@
+﻿<Window x:Class="_26_Menu_Contextual.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_26_Menu_Contextual"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="300">
+    <Grid>
+        <TextBox x:Name="txtMedida" HorizontalAlignment="Left" Margin="19,20,0,0" Text="" VerticalAlignment="Top" Width="120">
+            <TextBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem x:Name="mmuPaCm" Header="Pulgadas a cm" Click="mmuPaCm_Click" />
+                    <MenuItem x:Name="mmuCmaP" Header="cm a pulgadas" Click="mmuCmaP_Click" />
+                </ContextMenu>
+            </TextBox.ContextMenu>
+        </TextBox>
+    </Grid>
+</Window>

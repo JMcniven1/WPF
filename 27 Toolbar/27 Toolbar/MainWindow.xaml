@@ -1,0 +1,22 @@
+﻿<Window x:Class="_27_Toolbar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_27_Toolbar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <ToolBarTray DockPanel.Dock="Top" >
+            <ToolBar>
+                <Button x:Name="BtnSaludo" Content="saludo" Click="BtnSaludo_Click" />
+                <Button x:Name="BtnCarita" Click="BtnCarita_Click" >
+                    <Image Source="/Carita.bmp"/>
+                </Button>
+                <Separator/>
+                <TextBox x:Name="txtMensaje" Width="100" />
+            </ToolBar>
+        </ToolBarTray>
+        <TextBox AcceptsReturn="True" />
+    </DockPanel>
+</Window>
