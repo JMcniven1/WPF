@@ -1,0 +1,44 @@
+﻿<Window x:Class="_30_Zoon_y_Ajuste.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_30_Zoon_y_Ajuste"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <FlowDocumentScrollViewer IsToolBarVisible="True" Zoom="80" ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <FlowDocument>
+                <Paragraph FontSize="36" TextAlignment="Center">MCNIVEN</Paragraph>
+                <Paragraph FontStyle="Italic" TextAlignment="Left" FontSize="18" Foreground="Green">
+                    En este canal encontrar mucha informacion sobre WPF C# y su implementacion desde 0 a avanzado.
+                    Aprende todas las bases hasta la programacion avanzada.
+                    En este canal encontrar mucha informacion sobre WPF C# y su implementacion desde 0 a avanzado.
+                    Aprende todas las bases hasta la programacion avanzada.
+                    En este canal encontrar mucha informacion sobre WPF C# y su implementacion desde 0 a avanzado.
+                    Aprende todas las bases hasta la programacion avanzada.
+                    En este canal encontrar mucha informacion sobre WPF C# y su implementacion desde 0 a avanzado.
+                    Aprende todas las bases hasta la programacion avanzada.
+                    <LineBreak />
+                    Hay cursos de C#, Python Windowsforms, Maui
+                </Paragraph>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+        <FlowDocumentScrollViewer>
+            <FlowDocument IsOptimalParagraphEnabled="True">
+                <Paragraph FontStyle="Italic" TextAlignment="Left" FontSize="18" Foreground="OrangeRed">
+                    En este canal encontrar mucha informacion sobre WPF C# y su implementacion desde 0 a avanzado.
+                    Aprende todas las bases hasta la programacion avanzada.
+                    En este canal encontrar mucha informacion sobre WPF C# y su implementacion desde 0 a avanzado.
+                    Aprende todas las bases hasta la programacion avanzada.
+                    En este canal encontrar mucha informacion sobre WPF C# y su implementacion desde 0 a avanzado.
+                    Aprende todas las bases hasta la programacion avanzada.
+                    En este canal encontrar mucha informacion sobre WPF C# y su implementacion desde 0 a avanzado.
+                    Aprende todas las bases hasta la programacion avanzada.
+                    <LineBreak />
+                    Hay cursos de C#, Python Windowsforms, Maui
+                </Paragraph>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </StackPanel>
+</Window>
