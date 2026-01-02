@@ -1,0 +1,42 @@
+﻿<Window x:Class="_31_FlowDocumentPageViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_31_FlowDocumentPageViewer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600">
+    <DockPanel>
+        <Button x:Name="btnBuscar" DockPanel.Dock="Top" Click="btnBuscar_Click" >Buscar</Button>
+        <FlowDocumentPageViewer Name="fdTexto">
+            <FlowDocument>
+                <Paragraph>
+                    En este canal, se ofrece formacion grauita y material de apoyo para aprender sobe rogramacion y diferentes 
+                    temas asociados al desarrollo de software.
+                    En este canal, se ofrece formacion grauita y material de apoyo para aprender sobe rogramacion y diferentes 
+                    temas asociados al desarrollo de software.
+                    En este canal, se ofrece formacion grauita y material de apoyo para aprender sobe rogramacion y diferentes 
+                    temas asociados al desarrollo de software.
+                    En este canal, se ofrece formacion grauita y material de apoyo para aprender sobe rogramacion y diferentes 
+                    temas asociados al desarrollo de software.
+                    En este canal, se ofrece formacion grauita y material de apoyo para aprender sobe rogramacion y diferentes 
+                    temas asociados al desarrollo de software.
+                    En este canal, se ofrece formacion grauita y material de apoyo para aprender sobe rogramacion y diferentes 
+                    temas asociados al desarrollo de software.
+                    En este canal, se ofrece formacion grauita y material de apoyo para aprender sobe rogramacion y diferentes 
+                    temas asociados al desarrollo de software.
+                    En este canal, se ofrece formacion grauita y material de apoyo para aprender sobe rogramacion y diferentes 
+                    temas asociados al desarrollo de software.
+                    En este canal, se ofrece formacion grauita y material de apoyo para aprender sobe rogramacion y diferentes 
+                    temas asociados al desarrollo de software.
+                    En este canal, se ofrece formacion grauita y material de apoyo para aprender sobe rogramacion y diferentes 
+                    temas asociados al desarrollo de software.
+                    En este canal, se ofrece formacion grauita y material de apoyo para aprender sobe rogramacion y diferentes 
+                    temas asociados al desarrollo de software.
+                    En este canal, se ofrece formacion grauita y material de apoyo para aprender sobe rogramacion y diferentes 
+                    temas asociados al desarrollo de software.
+                </Paragraph>
+            </FlowDocument>
+        </FlowDocumentPageViewer>
+    </DockPanel>
+</Window>
